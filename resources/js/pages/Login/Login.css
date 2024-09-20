@@ -1,0 +1,160 @@
+.login-form-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.main-left {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-right {
+    width: 40vw;
+    height: 100vh;
+    background-color: #16161f;
+    background-image: url('../../../../public/assets/images/bg_webmail.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-container-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+.right-logo {
+    height: 7rem;
+}
+
+.container-all {
+    display: flex;
+    padding-bottom: 5rem;
+    flex-direction: row;
+    width: 100%;
+    gap: 5rem;
+    padding: 0 4% 6rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/**************** OLD CLASSES ******/
+
+
+.container-all_left {
+    width: 50%;
+}
+
+.container-all_right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#togglePass {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 21px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button-show-pass {
+    background-image: url(../../../../public/assets/images/show.png);
+}
+
+.button-hide-pass {
+    background-image: url(../../../../public/assets/images/hide.png);
+}
+
+.container-right_form,
+h2 {
+    max-width: 620px;
+}
+
+.show-whitelabel {
+    display: none;
+}
+
+@media screen and (max-width:1587px) {
+    .container-all {
+        padding: 0px !important;
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width:1214px) {
+    .container-all_left {
+        width: 70%;
+    }
+    .container-all_right {
+        width: 70% !important;
+    }
+
+    .right-logo {
+        height: 5rem;
+    }
+    .container {
+        max-width: 580px !important;
+    }
+
+   
+}
+
+@media screen and (max-width:892px) {
+    .main-right {
+        display: none;
+    }
+    .container-all_right {
+        width: 100% !important;
+        position: unset;
+        background: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-all_left {
+        display: none;
+    }
+
+    .is-size-4{
+        font-size: 1.25rem !important;
+    }
+
+    .main-left {
+        width: 80vw;
+    }
+
+}
+
+@media screen and (max-width:693px) {
+    .container-all_right {
+        width: 90% !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .container-all_right {
+        margin-top: 6rem;
+    }
+}

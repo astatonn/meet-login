@@ -1,0 +1,28 @@
+.header {
+  z-index: 10;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-img {
+    height: 8rem;
+}
+
+@media screen and (max-width:640px) {
+    .header {
+        width: 100%;
+    }
+
+    .header-img {
+        margin: auto;
+        display: block;
+    }
+
+    .clock-react {
+        font-size: 1.25rem !important;
+    }
+}

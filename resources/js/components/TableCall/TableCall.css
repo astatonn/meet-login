@@ -1,0 +1,23 @@
+.hug-list {
+    width: 100%;
+    height: calc(100% - 1rem);
+}
+
+td,
+th {
+    vertical-align: middle !important;
+}
+tbody tr td:last-child{ 
+    display: flex;
+    justify-content: center;
+}
+
+.table-call {
+    overflow-y: auto !important;
+    height: 88%;
+    max-width: 1000px;
+}
+
+.table-container {
+    width: 100%;
+}

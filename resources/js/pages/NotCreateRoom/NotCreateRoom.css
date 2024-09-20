@@ -1,0 +1,126 @@
+.button-color-primary {
+    background-color: #243413 !important;
+}
+
+.button-color-secondary {
+    background-color: #4b4e10 !important;
+}
+
+.hug-notcreate-room {
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.notcreate-conteudo {
+    padding: 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.notcreate-conteudo-right {
+    width: 42%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-width-try {
+    width: 250px;
+}
+
+.button-width {
+    width: 200px;
+}
+
+.buttons-div {
+    display: flex;
+    padding-top: 2rem;
+}
+
+.text-error {
+    margin: 0;
+    font-size: 35px;
+}
+
+.img-call-create { 
+    padding-right: 5rem;
+}
+
+@media screen and (max-width:1276px) {
+    .text-error {
+        font-size: 2.4rem;
+        margin-top: 2rem;
+    }
+
+    .notcreate-conteudo {
+        padding-left: 4rem;
+        padding-right: 2rem;
+    }
+
+    .notcreate-conteudo-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-call-create {
+        padding-right: 0;
+        max-width: max-content;
+    }
+
+    .hug-notcreate-room {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:997px) {
+    .img-call-create {
+        display: none;
+    }
+
+    .notcreate-conteudo {
+        width: 100%;
+    }
+
+    .notcreate-conteudo-right {
+        width: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hug-notcreate-room {
+        height: fit-content;
+    }
+
+    .notcreate-conteudo {
+        padding: 2rem 3rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .text-error {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .text-error {
+        font-size: 2rem;
+    }
+
+    .button-width-try {
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .button-width {
+        width: 100%;
+        margin-top: .5rem;
+    }
+}

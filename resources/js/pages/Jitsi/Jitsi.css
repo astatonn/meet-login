@@ -1,0 +1,39 @@
+#jitsiMeeting-0 {
+    overflow-y: hidden;
+}
+
+.hug_jitsi {
+    background-color: rgb(0, 0, 0);
+}
+
+#dropdown-jitsi {
+    position: absolute;
+    width: 270px;
+    top: 32px;
+    right: 51px;
+}
+
+#dropdown-jitsi .dropdown-item:nth-child(3):hover,
+.exit-default2:hover {
+    cursor: default;
+    background-color: white;
+}
+
+#dropdown-jitsi a {
+    font-size: 18px;
+}
+
+.exit-default2 {
+    color: #4a4a4a;
+    display: block;
+    font-size: .875rem;
+    line-height: 1.5;
+    padding: 0.375rem 1rem;
+    position: relative;
+}
+
+
+.exit-default:hover {
+    cursor: pointer !important;
+    background-color: rgba(241, 240, 240, 0.857) !important;
+}

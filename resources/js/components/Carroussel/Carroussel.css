@@ -1,0 +1,38 @@
+.video-penso {
+    height: 425px;
+}
+
+.slider-container {
+    width: fit-content !important;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.carousel {
+    color: #fff !important;
+}
+
+.slider-navigation-previous, .slider-navigation-next{
+    display: none !important;
+}
+
+.slider-item {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3rem 0 3rem;
+}
+
+.slider-item p {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.section-carousel {
+    padding: 3rem 6rem;
+}
+
+
